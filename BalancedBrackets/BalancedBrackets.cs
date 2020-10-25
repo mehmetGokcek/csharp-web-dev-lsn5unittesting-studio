@@ -34,10 +34,10 @@ namespace BalancedBracketsNS
                 }
                 else if (ch == ']')
                 {
-                    brackets--;
+                    brackets++;
                 }
             }
-            return brackets == 0;
+            return brackets == 2;
         }
     }
 }
